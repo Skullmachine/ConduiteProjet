@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Conduite de projet" company="" webLink="http://" view-date="2015-06-01" view-index="0" gantt-divider-location="439" resource-divider-location="393" version="2.7" locale="en_GB">
+<?xml version="1.0" encoding="UTF-8"?><project name="Conduite de projet" company="" webLink="http://" view-date="2015-03-16" view-index="0" gantt-divider-location="439" resource-divider-location="393" version="2.7" locale="en_GB">
     <description/>
-    <view zooming-state="default:5" id="gantt-chart">
+    <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Name" width="52" order="0"/>
         <field id="tpd4" name="Begin date" width="23" order="1"/>
         <field id="tpd5" name="End date" width="23" order="2"/>
@@ -53,7 +53,7 @@
             <depend id="4" type="2" difference="3" hardness="Strong"/>
             <depend id="5" type="2" difference="0" hardness="Strong"/>
             <depend id="7" type="2" difference="0" hardness="Strong"/>
-            <task id="31" name="Serveur (SRV)" color="#8cb6ce" meeting="false" start="2015-04-07" duration="19" complete="0" expand="false">
+            <task id="31" name="Serveur (SRV)" color="#8cb6ce" meeting="false" start="2015-04-07" duration="19" complete="0" expand="true">
                 <depend id="37" type="2" difference="2" hardness="Strong"/>
                 <task id="67" name="Approvisionnement" color="#8cb6ce" meeting="false" start="2015-04-07" duration="10" complete="0" expand="true">
                     <depend id="38" type="2" difference="4" hardness="Strong"/>
@@ -75,11 +75,11 @@
                 <task id="48" name="Paramétrage 28 PDA" color="#8cb6ce" meeting="false" start="2015-05-25" duration="7" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="30" name="Lot Logiciel" color="#000000" meeting="false" start="2015-04-27" duration="47" complete="0" expand="true">
+        <task id="30" name="Lot Logiciel" color="#000000" meeting="false" start="2015-04-27" duration="46" complete="0" expand="true">
             <depend id="3" type="2" difference="0" hardness="Strong"/>
             <depend id="5" type="2" difference="0" hardness="Strong"/>
             <task id="33" name="Base de Données (TBD)" color="#8cb6ce" meeting="false" start="2015-04-27" duration="5" complete="0" expand="true"/>
-            <task id="34" name="Acquisition (TAQ)" color="#8cb6ce" meeting="false" start="2015-05-26" duration="12" complete="0" expand="true">
+            <task id="34" name="Acquisition (TAQ)" color="#8cb6ce" meeting="false" start="2015-05-26" duration="15" complete="0" expand="true">
                 <task id="222" name="IE" color="#8cb6ce" meeting="false" start="2015-05-26" duration="2" complete="0" expand="true">
                     <depend id="220" type="2" difference="2" hardness="Strong"/>
                 </task>
@@ -89,6 +89,9 @@
                 <task id="225" name="IE" color="#8cb6ce" meeting="false" start="2015-06-08" duration="3" complete="0" expand="true">
                     <depend id="104" type="2" difference="0" hardness="Strong"/>
                     <depend id="236" type="2" difference="2" hardness="Strong"/>
+                </task>
+                <task id="236" name="IE" color="#8cb6ce" meeting="false" start="2015-06-15" duration="1" complete="0" expand="true">
+                    <depend id="104" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
             <task id="35" name="Echange (TEC)" color="#8cb6ce" meeting="false" start="2015-04-28" duration="17" complete="0" expand="true">
@@ -107,7 +110,7 @@
                 </task>
                 <task id="194" name="IE" color="#8cb6ce" meeting="false" start="2015-05-25" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="37" name="BackOffice (TBK)" color="#8cb6ce" meeting="false" start="2015-05-07" duration="40" complete="0" expand="true">
+            <task id="37" name="BackOffice (TBK)" color="#8cb6ce" meeting="false" start="2015-05-07" duration="39" complete="0" expand="true">
                 <task id="254" name="ID" color="#8cb6ce" meeting="false" start="2015-05-07" duration="1" complete="0" expand="true">
                     <depend id="255" type="2" difference="3" hardness="Strong"/>
                 </task>
@@ -117,14 +120,14 @@
                 <task id="273" name="ID" color="#8cb6ce" meeting="false" start="2015-05-21" duration="2" complete="0" expand="true">
                     <depend id="286" type="2" difference="1" hardness="Strong"/>
                 </task>
-                <task id="286" name="ID" color="#8cb6ce" meeting="false" start="2015-05-26" duration="29" complete="0" expand="true"/>
-                <task id="104" name="IE" color="#8cb6ce" meeting="false" start="2015-06-11" duration="2" complete="0" expand="true">
+                <task id="286" name="ID" color="#8cb6ce" meeting="false" start="2015-05-26" duration="28" complete="0" expand="true"/>
+                <task id="104" name="IE" color="#8cb6ce" meeting="false" start="2015-06-16" duration="2" complete="0" expand="true">
                     <depend id="219" type="2" difference="2" hardness="Strong"/>
                 </task>
-                <task id="219" name="IE" color="#8cb6ce" meeting="false" start="2015-06-17" duration="2" complete="0" expand="true"/>
+                <task id="219" name="IE" color="#8cb6ce" meeting="false" start="2015-06-22" duration="2" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="28" name="Lot Pilotage" meeting="false" start="2015-04-06" duration="69" complete="0" expand="true">
+        <task id="28" name="Lot Pilotage" meeting="false" start="2015-04-06" duration="68" complete="0" expand="true">
             <task id="0" name="Démarrage" color="#8cb6ce" meeting="false" start="2015-04-06" duration="1" complete="0" expand="true">
                 <depend id="1" type="2" difference="0" hardness="Strong"/>
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
@@ -134,14 +137,14 @@
             <task id="1" name="Document Conception Projet (CDT)" color="#8cb6ce" meeting="false" start="2015-04-07" duration="5" complete="0" expand="true">
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="178" name="Permanence" color="#8cb6ce" meeting="false" start="2015-04-14" duration="59" complete="0" expand="true"/>
-            <task id="2" name="Manuels" color="#000000" meeting="false" start="2015-06-08" duration="23" complete="0" expand="true">
-                <task id="3" name="Utilisateur (MUT)" color="#000000" meeting="false" start="2015-07-06" duration="3" complete="0" expand="true">
+            <task id="178" name="Permanence" color="#8cb6ce" meeting="false" start="2015-04-14" duration="58" complete="0" expand="true"/>
+            <task id="2" name="Manuels" color="#000000" meeting="false" start="2015-06-08" duration="22" complete="0" expand="true">
+                <task id="3" name="Utilisateur (MUT)" color="#000000" meeting="false" start="2015-07-03" duration="3" complete="0" expand="true">
                     <depend id="6" type="2" difference="0" hardness="Strong"/>
-                    <task id="119" name="IE" color="#8cb6ce" meeting="false" start="2015-07-06" duration="1" complete="0" expand="true"/>
-                    <task id="121" name="ID" color="#8cb6ce" meeting="false" start="2015-07-06" duration="3" complete="0" expand="true"/>
+                    <task id="119" name="IE" color="#8cb6ce" meeting="false" start="2015-07-03" duration="1" complete="0" expand="true"/>
+                    <task id="121" name="ID" color="#8cb6ce" meeting="false" start="2015-07-03" duration="3" complete="0" expand="true"/>
                 </task>
-                <task id="4" name="Administrateur (MAD)" color="#8cb6ce" meeting="false" start="2015-06-08" duration="6" complete="0" expand="true">
+                <task id="4" name="Administrateur (MAD)" color="#8cb6ce" meeting="false" start="2015-06-08" duration="6" complete="0" expand="false">
                     <depend id="6" type="2" difference="0" hardness="Strong"/>
                     <task id="130" name="IS" color="#8cb6ce" meeting="false" start="2015-06-08" duration="1" complete="0" expand="true">
                         <depend id="164" type="2" difference="4" hardness="Strong"/>
@@ -149,19 +152,19 @@
                     <task id="164" name="IS" color="#8cb6ce" meeting="false" start="2015-06-15" duration="1" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="5" name="Installation (INS)" color="#8cb6ce" meeting="false" start="2015-07-06" duration="2" complete="0" expand="true">
+            <task id="5" name="Installation (INS)" color="#8cb6ce" meeting="false" start="2015-07-03" duration="2" complete="0" expand="true">
                 <depend id="6" type="2" difference="0" hardness="Strong"/>
                 <depend id="7" type="2" difference="0" hardness="Strong"/>
-                <task id="136" name="Serveurs" color="#8cb6ce" meeting="false" start="2015-07-06" duration="1" complete="0" expand="true"/>
-                <task id="134" name="PDAs" color="#8cb6ce" meeting="false" start="2015-07-06" duration="2" complete="0" expand="true"/>
+                <task id="136" name="Serveurs" color="#8cb6ce" meeting="false" start="2015-07-03" duration="1" complete="0" expand="true"/>
+                <task id="134" name="PDAs" color="#8cb6ce" meeting="false" start="2015-07-03" duration="2" complete="0" expand="true"/>
             </task>
-            <task id="6" name="Recette (RCT)" color="#8cb6ce" meeting="false" start="2015-07-09" duration="3" complete="0" expand="true">
+            <task id="6" name="Recette (RCT)" color="#8cb6ce" meeting="false" start="2015-07-08" duration="3" complete="0" expand="true">
                 <depend id="7" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="7" name="Formation (FMT)" color="#8cb6ce" meeting="false" start="2015-07-15" duration="1" complete="0" expand="true">
+            <task id="7" name="Formation (FMT)" color="#8cb6ce" meeting="false" start="2015-07-13" duration="1" complete="0" expand="true">
                 <depend id="26" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="26" name="Livraison" color="#8cb6ce" meeting="true" start="2015-07-16" duration="0" complete="0" expand="true"/>
+            <task id="26" name="Livraison" color="#8cb6ce" meeting="true" start="2015-07-15" duration="0" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -186,7 +189,7 @@
         <allocation task-id="0" resource-id="4" function="6" responsible="true" load="50.0"/>
         <allocation task-id="6" resource-id="4" function="6" responsible="true" load="50.0"/>
         <allocation task-id="7" resource-id="4" function="6" responsible="true" load="50.0"/>
-        <allocation task-id="1" resource-id="4" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="4" function="6" responsible="true" load="50.0"/>
         <allocation task-id="178" resource-id="4" function="6" responsible="true" load="50.0"/>
         <allocation task-id="121" resource-id="5" function="2" responsible="true" load="100.0"/>
         <allocation task-id="6" resource-id="5" function="2" responsible="false" load="100.0"/>
